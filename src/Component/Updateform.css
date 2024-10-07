@@ -1,0 +1,56 @@
+/* Updateform.css */
+
+form {
+    display: flex;
+    flex-wrap: wrap; 
+    max-width: 800px; 
+    margin: auto; 
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    background-color: #f9f9f9; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.field-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 45%; 
+    margin: 10px; 
+}
+
+label {
+    margin-bottom: 5px; 
+    font-weight: bold; 
+}
+
+input[type="text"],
+input[type="email"] {
+    padding: 10px; 
+    margin-bottom: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    font-size: 16px; 
+}
+
+input[type="submit"],
+button {
+    padding: 10px 15px; 
+    background-color: #007bff;
+    color: white; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    margin-top: 10px; 
+}
+
+input[type="submit"]:hover,
+button:hover {
+    background-color: #0056b3; 
+}
+
+p {
+    color: red; 
+    font-size: 14px; 
+}
